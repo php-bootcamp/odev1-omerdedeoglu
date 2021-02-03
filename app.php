@@ -1,7 +1,5 @@
 <?php
 
-$age = 25;
-
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
  * yaş grubu tespit edilip ekrana bu yaş grubunun ismi yazılmalıdır. 
@@ -18,3 +16,14 @@ $age = 25;
  * 
  * İyi çalışmalar.
  */
+
+$age = 25;
+
+if($age >= 0 && $age < 15)
+  echo "Çocuk";
+if($age >14 && $age < 25)
+   echo "Genç";
+if($age >24 && $age <65)
+   echo "Yetişkin";
+if($age >= 65)
+   echo "Yaşlı";
